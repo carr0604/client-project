@@ -15,8 +15,6 @@ header {
     font-weight: 600;
 }
 
-
-
 #header-logo {
     height: 150px;
     width: 150px;
@@ -24,15 +22,20 @@ header {
     float: left;
 }
 
-.main-nav ul{
+.main-nav {
+    padding-top: 110px;
+}
+
+.main-nav ul {
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-nav ul li{
+.main-nav ul li {
     display: inline;
+    padding: 25px;
 }
 
-.main-nav ul li a{
+.main-nav ul li a {
     color: white;
 }
