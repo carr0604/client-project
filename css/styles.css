@@ -1,23 +1,73 @@
-<<<<<<< HEAD
-/*OVERALL STYLES*/
+
+/* ---------- STYLES THROUGHOUT ---------------- */
+
+h1,
+h2,
+h3,
+p,
+a,
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 h1{
     color:#fff;
-    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    padding-left:2.5rem;;
+    padding-left:2.5rem;
     padding-top: 2rem;
     text-transform: uppercase;
 }
 
-a{
+
+
+/* ---------------- THE HEADER ---------------- */
+
+header {
+    height:150px;
+    background-color: #508985;
+}
+
+#login {
+    float: right;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#header-logo {
+    height: 150px;
+    width: 150px;
+    background-color: #345955;
+    float: left;
+}
+
+.main-nav {
+    padding-top: 110px;
+}
+
+.main-nav ul {
+    list-style-type: none;
     font-family: 'Montserrat', sans-serif;
 }
 
+.main-nav ul li {
+    display: inline;
+    padding: 25px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+}
+
+
+
+/* ---------------- THE FOOTER ---------------- */
 
 /*FOOTER*/
-
 footer{
     box-sizing: border-box;
 }
@@ -58,10 +108,7 @@ footer{
     bottom:-27px;
 }
 
-/*EXTRA SMALL SCREEN*/
-@media screen and (min-width: 576px){
-    
-}
+/* ---------------- MEDIA QUERIES -------------- */
 
 /*SMALL SCREEN*/
 @media screen and (min-width: 768px){
@@ -76,48 +123,3 @@ footer{
 @media screen and (min-width: 768px){
     
 }
-
-
-=======
-
-/* ---------------- THE HEADER ---------------- */
-
-header {
-    height:150px;
-    background-color: #508985;
-}
-
-#login {
-    float: right;
-    margin: 15px;
-    padding: 5px;
-    border: 1px solid black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-#header-logo {
-    height: 150px;
-    width: 150px;
-    background-color: #345955;
-    float: left;
-}
-
-.main-nav {
-    padding-top: 110px;
-}
-
-.main-nav ul {
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.main-nav ul li {
-    display: inline;
-    padding: 25px;
-}
-
-.main-nav ul li a {
-    color: white;
-}
->>>>>>> e3cfd8baf55f453f84434cdeea31aff0a589d0e3
