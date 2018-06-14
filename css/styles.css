@@ -1,4 +1,38 @@
+
+/* ---------------- THE HEADER ---------------- */
+
 header {
-    min-height: 200px;
+    height:150px;
     background-color: #508985;
+}
+
+#login {
+    float: right;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+
+#header-logo {
+    height: 150px;
+    width: 150px;
+    background-color: #345955;
+    float: left;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-nav ul li{
+    display: inline;
+}
+
+.main-nav ul li a{
+    color: white;
 }
