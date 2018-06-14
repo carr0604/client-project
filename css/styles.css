@@ -1,0 +1,79 @@
+/*OVERALL STYLES*/
+
+h1{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left:2.5rem;;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*FOOTER*/
+
+footer{
+    box-sizing: border-box;
+}
+
+/*SPONSORS*/
+
+.sponsors{
+    height:15rem;
+    background-color: #4b7f7a;
+}
+
+/*BOTTOM*/
+
+.bottom{
+    height:8.5rem;
+    background-color: #508985;
+}
+
+.bottom ul{
+    padding:0;
+    
+}
+
+.bottom li{
+    color: #fff;
+    display: block;
+    padding-left: 2.5rem;;
+    padding-top: .5rem;
+    text-transform: uppercase;  
+}
+
+#copyright{
+    color:#fff;
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .5em;
+    padding-left: 45px; 
+    bottom:-27px;
+}
+
+/*EXTRA SMALL SCREEN*/
+@media screen and (min-width: 576px){
+    
+}
+
+/*SMALL SCREEN*/
+@media screen and (min-width: 768px){
+    
+    #copyright{
+        font-size: 2em;
+    }
+    
+}
+
+/*MEDIUM SCREEN*/
+@media screen and (min-width: 768px){
+    
+}
+
+
