@@ -1,4 +1,53 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
 header {
     min-height: 200px;
     background-color: #508985;
+}
+
+
+/*BODY*/
+#bgimage{
+    height: 20rem;
+    background-image: url('../images/bg.jpg');
+}
+#content{ 
+    margin-top: 1%;
+    height: 20rem;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.vl{
+    border-left: 2px solid grey;
+    height: 20rem;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+#box{ 
+    margin-top: 2%;
+    height: 20rem;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    
+}
+#ceomg{
+    height: auto;
+    background-color: #BEE0DC;
+}
+#denyse{
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#denyse img{
+    width: 20%;
+    height: auto;
 }
