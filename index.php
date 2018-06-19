@@ -15,6 +15,7 @@
         <div class="col-6" id="caac">
             <h2>WHAT CAAC IS ALL ABOUT?</h2>
             <p>"Hello"</p>
+            <p>hello from cath</p>
         </div>
         <div class="vl"></div>
         <div class="col-6" id="goal">
