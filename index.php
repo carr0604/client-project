@@ -1,28 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-	  <title>CAAC</title>
-	  
-	  <meta charset="utf-8">
-    
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/normalize.css" rel="stylesheet">
-       
-        <!--MONSTERRAT GOOGLE FONT-->
-	    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i" rel="stylesheet">
-        <!--FONT AWESOME-->
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- ANIMATE-->
-		<link href="css/animate.css" rel="stylesheet">
-		
-        <!--BOOTSTRAP CDN-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        
-        <!--STYLESHEET-->
-	    <link href="css/styles.css" type="text/css" rel="stylesheet">
-		<script src="js/modernizr-custom.js"></script>	
-</head>
+<?php
+    include("includes/header.php");
+?>
 <body>
 <div class="container-fluid">
 	
@@ -36,7 +14,7 @@
 
         <div class="col-6" id="caac">
             <h2>WHAT CAAC IS ALL ABOUT?</h2>
-            <p></p>
+            <p>"Hello"</p>
         </div>
         <div class="vl"></div>
         <div class="col-6" id="goal">
