@@ -1,12 +1,42 @@
+<<<<<<< HEAD
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
 }
+=======
+
+/* ---------- STYLES THROUGHOUT ---------------- */
+
+h1,
+h2,
+h3,
+p,
+a,
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left:2.5rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+
+
+/* ---------------- THE HEADER ---------------- */
+
+>>>>>>> ea47169ca01682e13b414e4416ec248bd6570f22
 header {
-    min-height: 200px;
+    height:150px;
     background-color: #508985;
 }
 
+<<<<<<< HEAD
 
 /*BODY*/
 #bgimage{
@@ -50,4 +80,99 @@ header {
 #denyse img{
     width: 20%;
     height: auto;
+=======
+#login {
+    float: right;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#header-logo {
+    height: 150px;
+    width: 150px;
+    background-color: #345955;
+    float: left;
+}
+
+.main-nav {
+    padding-top: 110px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-nav ul li {
+    display: inline;
+    padding: 25px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+}
+
+
+
+/* ---------------- THE FOOTER ---------------- */
+
+/*FOOTER*/
+footer{
+    box-sizing: border-box;
+}
+
+/*SPONSORS*/
+
+.sponsors{
+    height:15rem;
+    background-color: #4b7f7a;
+}
+
+/*BOTTOM*/
+
+.bottom{
+    height:8.5rem;
+    background-color: #508985;
+}
+
+.bottom ul{
+    padding:0;
+    
+}
+
+.bottom li{
+    color: #fff;
+    display: block;
+    padding-left: 2.5rem;;
+    padding-top: .5rem;
+    text-transform: uppercase;  
+}
+
+#copyright{
+    color:#fff;
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .5em;
+    padding-left: 45px; 
+    bottom:-27px;
+}
+
+/* ---------------- MEDIA QUERIES -------------- */
+
+/*SMALL SCREEN*/
+@media screen and (min-width: 768px){
+    
+    #copyright{
+        font-size: 2em;
+    }
+    
+}
+
+/*MEDIUM SCREEN*/
+@media screen and (min-width: 768px){
+    
+>>>>>>> ea47169ca01682e13b414e4416ec248bd6570f22
 }
