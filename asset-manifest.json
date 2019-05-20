@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NPFS-Exercise-v2/static/css/main.bc016b67.chunk.css",
+    "main.js": "/NPFS-Exercise-v2/static/js/main.6e0c34e9.chunk.js",
+    "main.js.map": "/NPFS-Exercise-v2/static/js/main.6e0c34e9.chunk.js.map",
+    "runtime~main.js": "/NPFS-Exercise-v2/static/js/runtime~main.1d10c5ea.js",
+    "runtime~main.js.map": "/NPFS-Exercise-v2/static/js/runtime~main.1d10c5ea.js.map",
+    "static/js/2.e2bc4550.chunk.js": "/NPFS-Exercise-v2/static/js/2.e2bc4550.chunk.js",
+    "static/js/2.e2bc4550.chunk.js.map": "/NPFS-Exercise-v2/static/js/2.e2bc4550.chunk.js.map",
+    "index.html": "/NPFS-Exercise-v2/index.html",
+    "precache-manifest.609c5d050e7bd427995bf0b698c315f9.js": "/NPFS-Exercise-v2/precache-manifest.609c5d050e7bd427995bf0b698c315f9.js",
+    "service-worker.js": "/NPFS-Exercise-v2/service-worker.js",
+    "static/css/main.bc016b67.chunk.css.map": "/NPFS-Exercise-v2/static/css/main.bc016b67.chunk.css.map"
+  }
+}
